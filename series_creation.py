@@ -25,3 +25,7 @@ print(ser.loc["Name"])
 # Here I have cleared my confusion about loc and iloc 
 # So Basically iloc is used to locate the integer valued index
 # While the loc function is used to locate the non integer valued index
+
+ser = pd.Series(np.arange(1,20,3), index = [x for x in "abcdefghijklmn"])
+
+print(ser)
